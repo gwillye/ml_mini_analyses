@@ -1,0 +1,15 @@
+# Downloaded datasets (regenerable; some large) — not versioned
+*.zip
+*.csv.gz
+data/
+ml-100k/
+*.tar.gz
+
+# Kaggle credentials — never commit
+kaggle.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
